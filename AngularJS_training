@@ -1,0 +1,165 @@
+****************************************************************************************************************************
+Angular exmaple :
+
+https://github.com/Apress/pro-angular-2ed/tree/master/Update%20for%20Angular%205/Updated%20Source%20Code/Source%20Code
+****************************************************************************************************************************
+	Installation
+****************************************************************************************************************************
+nodeJS download zip
+
+open command prompt and run nodevars.bat file
+
+Set path :    path=%PATH%;C:\Krishna\software\node-v6.11.0-win-x64\npm
+
+set proxy :   npm config set proxy http://10.5.1.26:8080
+
+node -v
+
+npm -v
+
+npm install -g @angular/cli
+or
+npm install -g @angular/cli@latest
+
+ng -v
+
+****************************************************************************************************************
+
+https://packagecontrol.io/installation      -> Typescript package installation for sublime.
+****************************************************************************************************************
+
+Angular 2.x
+
+Dependecy for Angular
+**********************
+Type script  -> optional
+Zone.js   ->Data Binding( deprecarated $apply, $digest, $watch)
+System.js ->Module Loader
+RXJS(reactive extensions for Angular) ->Events.Notifications & Observables(state manages
+history.js -> History states
+className.js ->Matching Structure with DOM
+polyfills.js ->backward compatibility
+lite-server -optional - browser refreshes on file saving
+
+
+
+
+
+****************************************************************************************************************
+create project
+
+ng new typescript
+
+ng serve --port 3500 --open
+
+
+****************************************************************************************************************
+interfaces can be extened number interfaces
+type can not be extend any type
+
+
+
+
+Interfaces
+Type
+enum -> enum can be extended
+
+
+tsconfig.json  => to convert it to .ts to .js
+
+
+
+
+
+
+
+package.json
+
+tsconfig.json
+main.ts
+.angular-cli.json
+
+
+
+There are two directives i,e attribute and stractured based
+
+
+
+npm install --save-dev @angular/cli@latest
+
+
+ng new ekart1
+ng serve
+
+
+
+callbacks/ promise / observable
+
+
+
+observalbe - asynchronise
+
+
+
+promise:
+returns a single value
+not cancellable
+more readable code with try/catch and async/await
+
+
+observable:
+
+works with multiple values over time
+cancellable
+supports map, filter, reduce and similar operators
+use Reactive Extensions (RxJS)
+an array whose items arrive asynchronously over tim
+
+
+
+
+
+Both Promises and Observables will help us work with the asynchronous functionalities in JavaScript. They are very similar in many cases, however, there are still some differences between the two as well, promises are values that will resolve in asynchronous ways like http calls. On the other hand, observables deal with sequence of asynchronous events. The main differences are as below:
+promise:
+•	having one pipe line
+•	usually only use with async data return
+•	not easy to cancel
+observable:
+•	are cancellable
+•	are retriable by nature such as retry and retryWhen
+•	stream data in multiple pipe lines
+•	having array-like operations like map, filter etc
+•	can be created from other sources like events
+•	they are function, which could be subscribed later on
+Also, I've created the graphical image for you below to show the differences visually
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
